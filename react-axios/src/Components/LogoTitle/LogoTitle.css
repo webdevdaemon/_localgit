@@ -1,0 +1,11 @@
+.LogoTitle {
+	color: #a5acaf;
+	font-family: 'input mono', monospace;
+	font-weight: 100;
+	height: inherit;
+	padding: 0 10px;
+}
+
+.LogoTitle h2 {
+	font-weight: 300;
+}

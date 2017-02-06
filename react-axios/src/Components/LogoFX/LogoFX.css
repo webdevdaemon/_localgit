@@ -1,0 +1,21 @@
+.LogoFX {
+	display: inline;
+}
+
+.App-logo {
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+  opacity: .66;
+  transition: all .33s ease-out;
+}
+
+.App-logo:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
