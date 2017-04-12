@@ -1,19 +1,16 @@
 import React from 'react';
-// import cssModule from 'react-css-modules';
 import './HomePage.css';
 
-class HomePage extends React.Component {
-  static propTypes = {
+import Headline
 
-  }
+class HomePage extends React.Component {
+
   render() {
     return (
-      <div>
-        <div className="HomePage">
-          <p>This is your HomePage Section...</p>
-        </div>
+      <div className="HomePage">
+        <Headline headlineTitle="Welcome to the webDevDaemon's domain..." headlineSubTitle="The ONLY place to find the perfect candidate for your currently vacant web developer position!"/>
       </div>
-    )
+    );
   }
 }
 

@@ -1,0 +1,29 @@
+{
+    "env":                      {
+        "browser":              true,
+        "commonjs":             true,
+        "es6":                  true,
+        "node":                 true
+    },
+    "parser":                   "babel-eslint",
+    "parserOptions":            {
+        "ecmaFeatures":         {"jsx": true},
+        "sourceType":           "module"
+    },
+    "plugins":                  [
+        "react", "babel", "import"
+    ],
+    "rules":                    {
+        "indent":               "off",
+        "linebreak-style":      "off",
+        "no-const-assign":      "warn",
+        "no-console":           "off",
+        "no-this-before-super": "warn",
+        "no-undef":             "warn",
+        "no-unreachable":       "warn",
+        "no-unused-vars":       "off",
+        "constructor-super":    "warn",
+        "valid-typeof":         "warn",
+        "react/jsx-indent":     "off"
+    }
+}

@@ -7,7 +7,7 @@ import LogoTitle from '../LogoTitle/index';
 class Header extends React.Component {
   render() {
     return (
-      <div className="App-header">
+      <div className="Header">
         <LogoFX />
         <LogoTitle title="portfolio" message="Charles E. Morgan's Web Development Portfolio" />
       </div>

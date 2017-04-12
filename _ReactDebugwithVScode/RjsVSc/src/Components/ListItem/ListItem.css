@@ -1,0 +1,33 @@
+.ListItem {
+	display: block;
+	font-family: 'fira code', 'menlo', 'courier', monospace;
+	margin: 0;
+	padding: 3px 8px;
+}
+
+.ListItem div {
+	max-height: 36px;
+	max-width: 80vw;
+}
+
+.ListItem-name {
+	font-size: 28px;
+	color: darkblue;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+.ListItem-type {
+	font-size: 20px;
+	color: lightseagreen;
+	font-style: italic;
+}
+
+.flex-row {
+	display: flex;
+	align-items: center;
+}
+
+.space-between {
+	justify-content: space-between
+}
