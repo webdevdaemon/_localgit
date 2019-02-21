@@ -1,6 +1,7 @@
-import React from 'react';
-import './LogoTitle.css';
-import BoldTitle from '../BoldTitle/index';
+import React from 'react'
+import PropTypes from 'prop-types'
+import BoldTitle from '../BoldTitle/index'
+import './LogoTitle.css'
 
 class LogoTitle extends React.Component {
   render() {
@@ -15,8 +16,8 @@ class LogoTitle extends React.Component {
 }
 
 LogoTitle.propTypes = {
-  title: React.PropTypes.string,
-  message: React.PropTypes.string
+  title: PropTypes.string,
+  message: PropTypes.string
 }
 
 LogoTitle.defaultProps = {
@@ -24,4 +25,4 @@ LogoTitle.defaultProps = {
   message: "Here is the LogoTitle Message!"
 }
 
-export default LogoTitle;
+export default LogoTitle

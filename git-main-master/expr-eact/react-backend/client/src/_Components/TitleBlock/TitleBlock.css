@@ -1,0 +1,23 @@
+.TitleBlock {
+	background-color: #656565;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.8' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+	border-radius: 1rem;
+	color: #fff;
+	margin: 1rem auto 2rem auto;
+	width: 80%;
+}
+
+.TitleBlock h2 {
+	font-family: 'Operator SSm';
+	font-size: 3rem;
+	font-weight: 500;
+	margin: 1.5rem auto;
+}
+
+.TitleBlock h4 {
+	font-family: 'Operator SSm';
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 100;
+	margin: 0 auto 1.5rem auto;
+}

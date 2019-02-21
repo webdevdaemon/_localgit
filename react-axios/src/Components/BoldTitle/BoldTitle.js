@@ -1,6 +1,6 @@
-import React from 'react';
-// import cssModule from 'react-css-modules';
-import './BoldTitle.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import './BoldTitle.css'
 
 function BoldTitle(props) {
 	return (
@@ -10,20 +10,20 @@ function BoldTitle(props) {
 					<span className="inner-title">{props.title}</span>
 				<span className="title-paren paren-close">)</span>
 			</h2>
-			{/*<p className="sub-title">
+			<p className="sub-title">
 				<em>{props.message}</em>
-			</p>*/}
+			</p>
 		</div>
 	)
 }
 
 BoldTitle.propTypes = {
-	title	:	React.PropTypes.string,
-	message	:	React.PropTypes.string
+	title	:	PropTypes.string,
+	message	:	PropTypes.string,
 }
 
 BoldTitle.defaultProps = {
 	title	: 	"Portfolio"
 }
 
-export default BoldTitle;
+export default BoldTitle

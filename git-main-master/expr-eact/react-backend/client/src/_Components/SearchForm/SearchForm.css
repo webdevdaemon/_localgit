@@ -1,0 +1,18 @@
+.SearchForm {
+	border: none;
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+.Searchform fieldset {
+	border: none;
+}
+
+.SearchForm fieldset input,
+.SearchForm fieldset label {
+	display: block;
+	/*font-size: 1.5rem;*/
+	margin: 1rem auto .5rem auto;
+	width: 50%;
+}

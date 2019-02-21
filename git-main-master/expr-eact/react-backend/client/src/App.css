@@ -1,0 +1,106 @@
+html {
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {font-size: 48px; font-weight: 700;}
+h2 {font-size: 40px; font-weight: 300;}
+h3 {font-size: 32px; font-weight: 500;}
+h4 {font-size: 24px; font-weight: 500;}
+h5 {font-size: 16px; font-weight: 500;}
+h6 {font-size: 10px; font-weight: 500;}
+ p {font-size: 16px; font-weight: 100;}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+  	text-align: center;
+  	width: 100vw;
+}
+
+.UserList-wrap {
+	width: 75%;
+}
+
+.UserList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.UserListItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 92px;
+	padding: 2px 8px 3px 0;
+	width: 100%;
+}
+
+.username-wrap {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 3px 2px 1px (#000);
+	height: 2em;
+	padding: 5px 5px 0 5px;
+}
+
+.username-wrap h2 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin: 0;
+}
+
+.avatar-wrap {
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	overflow: hidden;
+	margin: 10px;
+	padding: 10px;
+	height: 56px;
+	width: 56px;
+}
+
+.avatar-wrap img {
+	height: 72px;
+	width: 72px;
+	padding: 0;
+	margin: 0;
+}
+
+.user-display {
+	display: flex;
+	align-items: center;
+}
+
+.user-display .full-name {
+	display: flex;
+	flex-direction: row;
+}
+
+.user-display .full-name .first-name,
+.user-display .full-name .last-name {
+	font-weight: 500;
+}
+
+.first-name {
+	padding-right: 10px;
+}
+
+fieldset {
+	border: none;
+}
+
+input {
+	border: inset 7px #ddd;
+	font-size: 32px;
+}
